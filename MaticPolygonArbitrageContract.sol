@@ -63,7 +63,7 @@ contract InitiateFlashLoan {
         router.callArbitrageAAVE(router.aaveSwapAddress(), msg.sender);
         //After the arbitrage, Matic is transferred back to Multiplier to pay the loan plus fees. This transaction costs 0.2 Matic of gas.
         router.transferDaiToMultiplier(router.uniswapSwapAddress());
-        //Note that the transaction sender gains 600ish Matic from the arbitrage, this particular transaction can be repeated as price changes all the time.
+        //Note that the transaction sender gains 600~ Matic from the arbitrage, this particular transaction can be repeated as price changes all the time.
         router.completeTransation(address(this).balance);
     }
 }
