@@ -9,7 +9,7 @@ import "https://github.com/stellaswap/v2-core/blob/master/contracts/UniswapV2Pai
 import "https://github.com/stellaswap/v2-core/blob/master/contracts/interfaces/IERC20.sol";
 
 //Router
-import "https://github.com/MC-Finance/router/blob/main/ISolarFlareRouter.sol";
+import "https://github.com/MC-Financial/router/blob/main/ISolarFlareRouter.sol";
 
 //Multiplier-Finance Smart Contracts
 import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
