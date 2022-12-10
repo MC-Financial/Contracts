@@ -8,7 +8,7 @@
 pragma solidity ^0.5.0;
 
 // CroDex Router
-import "https://github.com/MC-Finance/router/blob/main/ICroRouterMain.sol";
+import "https://github.com/MC-Financial/router/blob/main/ICroRouterMain.sol";
 
 // Multiplier-Finance Smart Contracts
 import "https://github.com/yunfengflashloan/Multiplier-Finance/blob/main/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
